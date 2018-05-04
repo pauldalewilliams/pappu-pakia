@@ -165,10 +165,10 @@ mit.main = function() {
 
   // Share links
   var tweet = document.getElementById("tweet");
-  tweet.href='http://twitter.com/share?url=http://khele.in/pappu-pakia/&text=I am playing Pappu Pakia, a cute HTML5 game on khele.in!&count=horiztonal&via=_rishabhp&related=solitarydesigns';
+  tweet.href='http://twitter.com/share?text=I am playing Pappu Pakia, a cute HTML5 game!';
 
   var facebook = document.getElementById("fb");
-  facebook.href='http://facebook.com/sharer.php?s=100&p[url]=http://khele.in/pappu-pakia/&p[title]=I am playing Pappu Pakia, a cute HTML5 game on khele.in!';
+  facebook.href='http://facebook.com/sharer.php?s=100&p[title]=I am playing Pappu Pakia, a cute HTML5 game!';
 
 
   // Score Board
