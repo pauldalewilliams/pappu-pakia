@@ -324,10 +324,10 @@ mit.main = function() {
 
     // Share
     var tweet = document.getElementById("tweet");
-    tweet.href='http://twitter.com/share?url=http://khele.in/pappu-pakia/&text=I just scored ' +Math.floor(mit.score)+ ' points in Pappu Pakia!&count=horiztonal&via=_rishabhp&related=solitarydesigns';
+    tweet.href='http://twitter.com/share?&text=I just scored ' +Math.floor(mit.score)+ ' points in Pappu Pakia!';
   
     var facebook = document.getElementById("fb");
-    facebook.href='http://facebook.com/sharer.php?s=100&p[url]=http://khele.in/pappu-pakia/&p[title]=I just scored ' +Math.floor(mit.score)+ ' points in the Pappu Pakia!';
+    facebook.href='http://facebook.com/sharer.php?s=100&p[title]=I just scored ' +Math.floor(mit.score)+ ' points in the Pappu Pakia!';
 
   };
 
